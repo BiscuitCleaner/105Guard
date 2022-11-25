@@ -1,9 +1,11 @@
 const mineflayer = require('mineflayer')
 
+let config = require("../config.json")
 var bot = mineflayer.createBot(
     {
         host: 'localhost',
-        username: 'epicgamerberry@outlook.com',
+        username: config.username,
+        
         password: '',
         version: '1.19.2',
         auth: 'microsoft'
