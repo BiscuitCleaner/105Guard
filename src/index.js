@@ -6,7 +6,7 @@ var bot = mineflayer.createBot(
         host: config.host,
         username: config.username,
         password: '',
-        version: '1.19.2',
+        version: '1.19',
         auth: 'microsoft'
     }
 )

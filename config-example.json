@@ -1,4 +1,5 @@
 {
     "username": "example@outlook.com",
-    "host": "localhost"
+    "host": "localhost",
+    "island": ""
 }
